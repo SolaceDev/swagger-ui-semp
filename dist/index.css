@@ -14,3 +14,25 @@ body {
     margin: 0;
     background: #fafafa;
 }
+
+.base-url,
+.scheme-container,
+.info__contact,
+.authorization__btn,
+.parameters-col_description>input,
+.prop-enum {
+    display: none !important;
+}
+
+.markdown code {
+    color: black !important;
+    padding: 0 !important;
+}
+
+.prop p {
+    padding-top: 0.65em !important;
+}
+
+.property-row>td:first-child {
+    padding-top: 0.65em !important;
+}
